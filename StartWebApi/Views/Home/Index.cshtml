@@ -1,0 +1,294 @@
+﻿@model List<DotNet.Highcharts.Highcharts>
+<div id="test" class="col-lg-6">
+    @(Model[0])
+</div>
+<div id="test" class="col-lg-6">
+    @(Model[1])
+</div>
+<div id="body">
+    <div ng-controller="mainController" class="divList">
+        <br />
+        <br />
+        <br />
+        <hr />
+        <input type="button" value="Show Developers Dev" ng-click="ShowDevDiv()" ng-show="ShowDevBtn" class="btn btn-info" />
+        <input type="button" value="Hide Developers Dev" ng-click="HideDevDiv()" ng-show="HideDevBtn" class="btn btn-default" />
+        <input type="button" value="Show Project Dev" ng-click="ShowProjectDiv()" ng-show="ShowProjBtn" class="btn btn-info" />
+        <input type="button" value="Hide Project Dev" ng-click="HideProjectDiv()" ng-show="HideProjBtn" class="btn btn-default" />
+        <a href="/#about">ABOUT</a>
+        <br />
+        <hr />
+        <div id="main">
+
+            <!-- angular templating -->
+            <!-- this is where content will be injected -->
+            <div ng-view></div>
+
+        </div>
+
+        <div ng-show="Developers">
+            <p class="divHead">Employee List</p>
+            <table class="table table-bordered table-responsive">
+                <tr>
+                    <td><b>ID</b></td>
+                    <td><b>Name</b></td>
+                    <td><b>Salary</b></td>
+                    <td><b>Actions</b></td>
+                </tr>
+                <tr ng-repeat="developer in developers">
+                    <td>{{developer.DeveloperId}}
+                    </td>
+                    <td>{{developer.Name}}
+                    </td>
+                    <td>{{developer.Salary}}
+                    </td>
+                    <td>
+                        <span ng-click="editDeveloper(developer)" class="btn-sm btn-success">Edit</span>
+                        <span ng-click="deleteDeveloper(developer)" class="btn-sm btn-danger">Delete</span>
+                    </td>
+                </tr>
+            </table>
+            <span ng-click="AddDeveloperDiv()" class="btn btn-success">Add Employee</span>
+            <div ng-show="divDeveloper">
+                <div accordion-group>
+                    <p class="divHead">{{Action}} Developer</p>
+                    <table class="table">
+                        <tr>
+                            <td><b>Id</b></td>
+                            <td>
+                                <input type="text" disabled="disabled" ng-model="developerId" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Name</b></td>
+                            <td>
+                                <input id="DevName" type="text" ng-model="developerName" required />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Salary</b></td>
+                            <td>
+                                <input id="DevSalary" type="text" ng-model="developerSalary" required />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" class="btn btn-info" value="Save" ng-click="AddUpdateDeveloper()" />
+                                <br />
+                                <input type="button" class="btn btn-primary" value="Hide form" ng-click="HideForm()" />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!--divDeveloper (table)-->
+        </div>
+        <!--Developers div-->
+        <br />
+        <hr />
+        <div ng-show="Projects">
+            <p>Project List</p>
+            <table class="table table-bordered table-responsive">
+                <tr>
+                    <td><b>ID</b></td>
+                    <td><b>Name</b></td>
+                    <td><b>Actions</b></td>
+                </tr>
+                <tr ng-repeat="project in projects">
+                    <td>{{project.Id}}
+                    </td>
+                    <td>{{project.Name}}
+                    </td>
+                    <td>
+                        <span ng-click="EditProject(project)" class="btn-sm btn-success">Edit</span>
+                        <span ng-click="deleteProject(project)" class="btn-sm btn-danger">Delete</span>
+                        <span ng-click="getFeature(project.Id)" class="btn-sm btn-info">Features</span>
+                    </td>
+                </tr>
+            </table>
+            <!--table project in projects-->
+            <span ng-click="AddProjectDiv()" class="btn btn-success">Add Project</span>
+            <div ng-show="divProject">
+                <div accordion-group>
+                    <p class="divHead">{{Action}} Project</p>
+                    <table class="table">
+                        <tr>
+                            <td><b>Id</b></td>
+                            <td>
+                                <input type="text" disabled="disabled" ng-model="projectId" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Name</b></td>
+                            <td>
+                                <input id="ProjName" type="text" ng-model="projectName" required />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" class="btn btn-info" value="Save" ng-click="AddUpdateProject()" />
+                                <br />
+                                <input type="button" class="btn btn-primary" value="Hide form" ng-click="HideProjectForm()" />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!--divProject-->
+            <div ng-show="Features">
+                <p>Features</p>
+                <table class="table table-bordered table-responsive">
+                    <tr>
+                        <td><b>ID</b></td>
+                        <td><b>Name</b></td>
+                        <td><b>Description</b></td>
+                        <td><b>ProjectId</b></td>
+                        <td><b>Actions</b></td>
+                    </tr>
+                    <tr ng-repeat="feature in features">
+                        <td>{{feature.FeatureId}}
+                        </td>
+                        <td>{{feature.FeatureName}}
+                        </td>
+                        <td>{{feature.FeatureDescription}}
+                        </td>
+                        <td>{{feature.ProjectId}}
+                        </td>
+                        <td>
+                            <span ng-click="editFeature(feature)" class="btn-sm btn-success">Edit</span>
+                            <span ng-click="deleteFeature(feature)" class="btn-sm btn-danger">Delete</span>
+                            <span ng-click="getTasks(feature)" class="btn-sm btn-info">Tasks</span>
+                        </td>
+                    </tr>
+                </table>
+                <span ng-click="AddFeatureDiv()" class="btn btn-success">Add Feature</span>
+                <div ng-show="divFeature">
+                    <div accordion-group>
+                        <p class="divHead">{{Action}} Features</p>
+                        <table class="table">
+                            <tr>
+                                <td><b>ID</b></td>
+                                <td>
+                                    <input type="text" disabled="disabled" ng-model="featureId" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Name</b></td>
+                                <td>
+                                    <input type="text" ng-model="featureName" required />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Description</b></td>
+                                <td>
+                                    <input type="text" ng-model="featureDescription" required />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>ProjectID</b></td>
+                                <td>
+                                    <input type="text" ng-model="featureProjectId" required />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="submit" class="btn btn-info" value="Save" ng-click="AddUpdateFeature()" />
+                                    <br />
+                                    <input type="button" class="btn btn-primary" value="Hide form" ng-click="HideFeatureDiv()" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div ng-show="Tasks">
+                    <p>Tasks</p>
+                    <table class="table table-bordered table-responsive">
+                        <tr>
+                            <td><b>ID</b></td>
+                            <td><b>FeatureId</b></td>
+                            <td><b>DeveloperId</b></td>
+                            <td><b>WorkLoad</b></td>
+                            <td><b>Open</b></td>
+                            <td><b>Description</b></td>
+                            <td><b>Closing Date</b></td>
+                            <td><b>Actions</b></td>
+                        </tr>
+                        <tr ng-repeat="task in tasks">
+                            <td>{{task.TaskId}}
+                            </td>
+                            <td>{{task.FeatureId}}
+                            </td>
+                            <td>{{task.DeveloperId}}
+                            </td>
+                            <td>{{task.WorkLoad}}
+                            </td>
+                            <td>{{task.Open}}
+                            </td>
+                            <td>{{task.Description}}
+                            </td>
+                            <td>{{task.ClosingDate}}
+                            </td>
+                            <td>
+                                <span ng-click="editTask(task)" class="btn-sm btn-success">Edit</span>
+                                <span ng-click="deleteFeature(feature)" class="btn-sm btn-danger">Delete</span>
+                                <span ng-click="Close(task)" class="btn-sm btn-info">Close task</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <span ng-click="AddTaskDiv()" class="btn btn-success">Add Task</span>
+                    <div ng-show="divTask">
+                        <div accordion-group>
+                            <p class="divHead">{{Action}} Task</p>
+                            <table class="table">
+                                <tr>
+                                    <td><b>Task ID</b></td>
+                                    <td>
+                                        <input type="text" disabled="disabled" ng-model="taskId" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><b>Feature ID</b></td>
+                                    <td>
+                                        <input type="text" ng-model="featureId" required />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><b>Developer ID</b></td>
+                                    <td>
+                                        <input type="text" ng-model="developerId" required />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><b>Workload</b></td>
+                                    <td>
+                                        <input type="text" ng-model="workLoad" required />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><b>Is Open?</b></td>
+                                    <td>
+                                        <input type="text" ng-model="open" required />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><b>Description</b></td>
+                                    <td>
+                                        <input type="text" ng-model="description" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="submit" class="btn btn-info" value="Save" ng-click="AddUpdateTask()" />
+                                        <br />
+                                        <input type="button" class="btn btn-primary" value="Hide form" ng-click="HideTaskDiv()" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Projects div-->
+    </div>
+</div>

@@ -1,0 +1,129 @@
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\StartWebApi.dll.config
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\StartWebApi.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\StartWebApi.pdb
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\Antlr3.Runtime.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\EntityFramework.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\Microsoft.Data.Edm.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\Microsoft.Data.OData.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\Microsoft.Web.Infrastructure.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\Newtonsoft.Json.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Net.Http.Formatting.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Spatial.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Helpers.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Http.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Http.OData.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Http.Tracing.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Http.WebHost.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Mvc.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Optimization.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Providers.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Razor.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.WebPages.Deployment.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.WebPages.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.WebPages.Razor.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\WebGrease.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\Newtonsoft.Json.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Net.Http.Formatting.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Http.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Http.Tracing.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Http.WebHost.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\EntityFramework.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Helpers.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Mvc.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Razor.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.WebPages.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.WebPages.Deployment.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.WebPages.Razor.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Web.Http.OData.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\Microsoft.Data.Edm.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\Microsoft.Data.OData.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\System.Spatial.xml
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\de\Microsoft.Data.Edm.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\es\Microsoft.Data.Edm.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\it\Microsoft.Data.Edm.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\de\Microsoft.Data.OData.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\es\Microsoft.Data.OData.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\fr\Microsoft.Data.OData.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\it\Microsoft.Data.OData.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\ja\Microsoft.Data.OData.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\ko\Microsoft.Data.OData.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\ru\Microsoft.Data.OData.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\de\System.Spatial.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\es\System.Spatial.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\fr\System.Spatial.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\it\System.Spatial.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\ja\System.Spatial.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\ko\System.Spatial.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\ru\System.Spatial.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\zh-Hans\System.Spatial.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\bin\zh-Hant\System.Spatial.resources.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\obj\Debug\StartWebApi.dll
+E:\My blogs\StartWebApi\StartWebApi\StartWebApi\obj\Debug\StartWebApi.pdb
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\obj\Debug\StartWebApi.csprojResolveAssemblyReference.cache
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\obj\Debug\StartWebApi.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\obj\Debug\StartWebApi.pdb
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\StartWebApi.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\StartWebApi.pdb
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\Newtonsoft.Json.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.Helpers.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.Http.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.Razor.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.WebPages.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\Newtonsoft.Json.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.Http.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.Http.Tracing.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\EntityFramework.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.Helpers.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.Mvc.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.Razor.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.WebPages.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Web.Http.OData.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\Microsoft.Data.Edm.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\Microsoft.Data.OData.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\System.Spatial.xml
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\de\System.Spatial.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\es\System.Spatial.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\fr\System.Spatial.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\it\System.Spatial.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\ja\System.Spatial.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\ko\System.Spatial.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\ru\System.Spatial.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\crynkowski\Desktop\webapi\StartWebApi\bin\zh-Hant\System.Spatial.resources.dll
